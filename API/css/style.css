@@ -1,0 +1,68 @@
+.container{
+    justify-content: center;
+    margin: 0 auto;
+}
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+.div{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: 0px 5px;
+    background: rgb(0,36,13);
+    background: linear-gradient(90deg, rgba(0,36,13,1) 6%, rgba(121,90,9,0.9725140056022409) 38%, rgba(149,0,255,0.9557072829131653) 91%);
+    transition: 2s;
+    animation: ani linear infinite 3s;
+}
+
+
+
+@keyframes ani{
+    0%{
+    background: rgb(164,21,153);
+    background: linear-gradient(90deg, rgba(164,21,153,1) 19%, rgba(121,90,9,0.9725140056022409) 48%, rgba(26,50,17,0.9557072829131653) 91%);
+    }
+    50%{
+        background: rgb(23,21,164);
+background: linear-gradient(90deg, rgba(23,21,164,1) 19%, rgba(121,9,9,0.9304971988795518) 45%, rgba(110,107,24,0.9557072829131653) 84%);
+    }
+}
+
+
+
+
+.div img {
+    width: 500px;
+}
+p,
+h3{
+    color: #ffff;
+}
+.logo{
+    margin: 0 auto;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+}
+#searchInput{
+    width: 150px ;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid black ;
+    padding: 0px 5px;
+}
+.searchBtn{
+    width: 60px ;
+    height: 30px;
+    border-radius: 5px;
+    font-family:Verdana, sans-serif;
+    border: none;
+    
+}
